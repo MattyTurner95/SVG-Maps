@@ -1,0 +1,11 @@
+# CORS headers for all files
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: *
+
+# Specific headers for SVG files
+/*.svg
+  Access-Control-Allow-Origin: *
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=3600
